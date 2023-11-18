@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin:2rem 4rem ;
+    gap: 57rem;
+    font-size: 20rem;
+    font-weight: 80%;
+}
+
+.head2{
+    position: absolute;
+    top: -1%;
+    margin: 2.3rem 4rem;
+}
+
+.header div:nth-child(1) a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.header div:nth-child(1) p{
+    font-size: 2rem;
+    font-weight: 700;
+   font-family: 'Italianno', cursive;
+}
+
+.header div:nth-child(2){
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.header div:nth-child(2) a{
+    font-size: 0.95rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head div:nth-child(2) a{
+    font-size: 0.95rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head #current{
+    font-size: 0.95rem;
+    color: rgb(196, 29, 29);
+    font-weight: 900;
+}
+
+
+
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 90vh;
+}
+
+.hero .text{
+    margin: 14rem 4rem;
+}
+
+.hero .text p{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+}
+
+.hero .text p span{
+    color: rgb(196, 29, 29);
+}
+
+.hero .img img{
+    width: 550px;
+    height: 610px;
+    object-fit: cover;
+}
+
+
+.home{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    place-content: center;
+    margin: 10rem 4rem 1rem;
+    gap: 7rem;
+}
+
+.home .img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.home .text h2{
+    font-size: 2rem;
+}
+
+.home .text p{
+    font-size: 0.95rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat', serif;
+    line-height: 1.75rem;
+}
+
+.home .text #last{
+    margin-bottom: 2rem;
+}
+
+
+.home .text p span{
+    color: rgb(196, 29, 29);
+    font-family: 'Montserrat', serif;
+}
+
+.home .text .btn{
+    text-decoration: none;
+    margin-top: 2rem;
+    color: rgb(33, 5, 83);
+    font-weight: 900;
+}
+
+.about{
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr;
+}
+
+.about .text{
+    max-width: 20rem;
+    margin: 10rem 4rem;
+}
+
+.about .text h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.about .text p{
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0.5px 0.2px #000;
+    
+}
+
+.about .text p span{
+    color: rgb(196, 29, 29);
+    font-family: 'Montserrat', serif;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+.about .img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 0 4rem;
+}
+
+.about .img img{
+    width: 600px;
+    height:400px ;
+    object-fit: cover;
+}
+
+.contact{
+    display: grid;
+    grid-template-rows: 2fr auto;
+    place-content: start center;
+    height: 100vh;
+}
+
+.contact .text{
+   font-size: 2.75rem;
+   font-weight: 800;
+   letter-spacing: 0.1rem;
+   margin: 10rem 4rem 0 4rem;
+}
+
+.contact .text span{
+    color: rgb(196, 29, 29);
+ }
+
+.contact .footer{
+    display: flex;
+    align-items: center;
+    margin: 0 4rem 3rem;
+    gap: 52rem;
+    position: relative;
+}
+
+.contact .footer div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.contact .footer div:nth-child(1) span{
+    margin-bottom: 0.3rem;
+}
+
+.contact .footer div:nth-child(2) p{
+    color: #000;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+}
+
+.footer {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+ 
